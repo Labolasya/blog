@@ -8,22 +8,24 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'vitepress', link: '/vitepress/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
+    sidebar: {
+      '/vitepress/': [{
+        text: 'vitepress',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '部署vitepress踩的坑', link: '/vitepress/部署vitepress踩的坑' }
         ]
-      }
-    ],
+      }]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/Labolasya' }
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })

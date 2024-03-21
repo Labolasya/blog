@@ -1,3 +1,5 @@
+docs/.obsidian
 docs/.vitepress/dist
 docs/.vitepress/cache
 node_modules
+Auto_Upload_Repo.bat

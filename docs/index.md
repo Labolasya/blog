@@ -5,21 +5,24 @@ layout: home
 hero:
   name: "Labolasya's blog"
   text: "nice to meet you"
-  tagline: My great project tagline
+  tagline: Trying to learn to become a full-stack programmer
+  image:
+    src: /avatar.png
+    alt: avatar
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: vitepress
+      link: /vitepress/
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: 暂时还没有
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 想好
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 写些什么
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

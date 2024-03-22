@@ -14,8 +14,8 @@ hero:
       text: vitepress
       link: /vitepress/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Nothing Here
+      link: /
 
 features:
   - title: 暂时还没有

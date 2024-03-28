@@ -26,3 +26,41 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<style>
+@keyframes wiggle {
+  0% {
+    transform: translate(0, 0);
+  }
+  1% {
+    transform: translate(-4px, 4px);
+  }
+  2% {
+    transform: translate(0, 0);
+  }
+  3% {
+    transform: translate(4px, -4px);
+  }
+  4% {
+    transform: translate(0, 0);
+  }
+
+  10% {
+    transform: translate(0, 0);
+  }
+  11% {
+    transform: translate(-4px, -4px);
+  }
+  12% {
+    transform: translate(0, 0);
+  }
+  13% {
+    transform: translate(4px, 4px);
+  }
+  14% {
+    transform: translate(0, 0);
+  }
+}
+.image {
+  animation: wiggle 2s infinite;
+}
+</style>
